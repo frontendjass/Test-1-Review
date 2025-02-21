@@ -111,7 +111,7 @@ void usingStringStreamObjects(const string& input) {
 void createStructure() {
     // Step 1: Declare and define a structure
     struct Person {
-        std::string name;
+        string name;
         int age;
     };
 
@@ -121,8 +121,8 @@ void createStructure() {
     person1.age = 30;
 
     // Step 3: Output the structure's data
-    std::cout << "Name: " << person1.name << std::endl;
-    std::cout << "Age: " << person1.age << std::endl;
+    cout << "Name: " << person1.name << endl;
+    cout << "Age: " << person1.age << endl;
 }
 
 int main() {
